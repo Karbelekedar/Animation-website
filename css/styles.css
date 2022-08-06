@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.top-header{
+   background-color: black;
+   height: 48px;
+   display: flex;
+   padding: 15px;
+   justify-content: center;
+   align-items: center;
+}
+
+header img{
+ height: auto;
+ width: auto;
+ max-height: 30px;
+ padding:  5px ;
+ margin: 0 20px;
+
+
+}
+
+li{
+    list-style: none;
+}
+
+.li-items{
+    color: white;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 13px;
+    margin: 0 18px;
+}
+
+.topnav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topnavlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titlecontainer{
+ /* width: 60%;\ */
+ /* position: relative;
+ float: left; */
+}
+.title{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+.topnavelements{
+    float: left;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    color: white;
+}
